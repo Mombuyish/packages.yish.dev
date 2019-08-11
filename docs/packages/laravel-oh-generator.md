@@ -25,10 +25,6 @@ Install by composer
 $ composer require yish/generators
 ```
 
-* 5.4 before using branch `1.1.x`
-* 5.5 ~ 5.7 using branch `2.0.x`
-* 5.8 or later using branch `2.1.x`
-
 Registing Service Provider
 
 If you are using laravel 5.5 or later, you can use auto discover, you don't need put in service provider to `app.php`.
