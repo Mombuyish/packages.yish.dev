@@ -37,9 +37,8 @@ If you are using laravel 5.5 or later, you can use auto discover, you don't need
 <?php
 //app.php
 'providers' => [
-        \Yish\Generators\GeneratorsServiceProvider::class,
-    ],
-
+    \Yish\Generators\GeneratorsServiceProvider::class,
+],
 ```
 
 ## Generating Service
@@ -131,7 +130,7 @@ interface TransformContract
     public function transform($attributes);
 }
 ```
-#### transformer
+#### Helper / transformer()
 ``` php
 // $instance => Transformer class.
 // $attributes => Need transform data, maybe array or collection etc.
@@ -172,7 +171,7 @@ interface FormatContract
 }
 ```
 #### Statusable
-You can use Statusable trait to help you faster building formalize format.
+You can use `Statusable` trait to help you faster building formalize format.
 Set property `$status = true`, you can get success format. `$status` must be boolean, if not you will get exception.
 ``` php
 <?php
@@ -255,7 +254,7 @@ class Success extends Formatter implements FormatContract
 ```
 If you need to customize what you need, check out `Yish\Generators\Foundation\Format\Statusable` get more detail.
 
-#### formatter
+#### Helper / formatter()
 ``` php
 // $request => Must instance of `Illuminate\Http\Request`.
 // $instance => Formatter class.
