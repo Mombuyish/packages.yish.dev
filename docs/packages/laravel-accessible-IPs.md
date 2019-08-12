@@ -94,7 +94,7 @@ Route::group(['middleware' => ['access-ip']], function() {
 });
 ```
 
-# Exception
+## Exception
 When you denied by middleware, you will get `403 Forbidden`.
 You can use `app/Exceptions/Handler.php` to change exception do something.
 

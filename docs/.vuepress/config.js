@@ -15,7 +15,9 @@ module.exports = {
                     children: [
                         '',
                         '/packages/laravel-oh-generator',
+                        '/packages/laravel-imgur',
                         '/packages/laravel-accessible-IPs',
+                        '/packages/laravel-batch-migration',
                     ]
                 }
             ],
