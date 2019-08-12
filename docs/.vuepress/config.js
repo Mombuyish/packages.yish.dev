@@ -15,6 +15,7 @@ module.exports = {
                     children: [
                         '',
                         '/packages/laravel-oh-generator',
+                        '/packages/laravel-accessible-IPs',
                     ]
                 }
             ],
