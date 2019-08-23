@@ -2,7 +2,33 @@ module.exports = {
     title: 'Yish\'s Packages',
     description: 'Yish develop and contribute packages and open source.',
 
+    serviceWorker: true,
+
+    plugins: [
+      '@vuepress/pwa',
+      require('./plugins/metaVersion.js')
+    ],
+
+    head: [
+        // Used for PWA
+        [
+          "link",
+          {
+            rel: 'manifest',
+            href: '/manifest.json'
+          }
+        ],
+        [
+          "link",
+          {
+            rel: 'icon',
+            href: '/icon.png'
+          }
+        ]
+      ],
+
     themeConfig: {
+        logo: "/assets/img/logo.svg",
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Packages', link: '/packages/' },
