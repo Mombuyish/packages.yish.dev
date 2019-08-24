@@ -22,7 +22,7 @@ composer require yish/laravel-curlftp
 
 ## Requirement
 
-Laravel 5.8 or 6.*
+Laravel `5.8` or `6.*`
 
 ## Usage
 In your `config/filesystems.php`, adding driver to support.
