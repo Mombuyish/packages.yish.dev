@@ -43,6 +43,7 @@ module.exports = {
                         '/packages/laravel-oh-generator',
                         '/packages/laravel-imgur',
                         '/packages/laravel-curlftp',
+                        '/packages/sybase-notification-channel',
                         '/packages/laravel-googlespreadsheet',
                         '/packages/laravel-accessible-IPs',
                         '/packages/laravel-batch-migration',
