@@ -21,6 +21,10 @@ You can install the package via composer:
 composer require yish/sybase-notification-channel
 ```
 
+## Requirement
+
+Laravel `5.8` or `6.*`
+
 ## Usage
 ### Creating notification:
 
