@@ -46,7 +46,12 @@ module.exports = {
                         '/packages/sybase-notification-channel',
                         '/packages/laravel-googlespreadsheet',
                         '/packages/laravel-accessible-IPs',
+                        '/packages/laravel-scaffold',
+                        '/packages/laravel-auto-page',
+                        '/packages/laravel-facebook-ads-sdk',
                         '/packages/laravel-batch-migration',
+                        '/packages/php-snippets-for-vscode',
+                        '/packages/sublime-fast-snippets-with-php',
                     ]
                 }
             ],
