@@ -3,6 +3,11 @@ This project is developing now.
 
 **update! facebook ads api 3.1 !**
 
+<p>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<a class="github-button" href="https://github.com/Mombuyish/LaravelFacebookAdsSdk" data-show-count="true" aria-label="Star Mombuyish/LaravelFacebookAdsSdk on GitHub">Star</a>
+</p>
+
 # Installation
 ``` bash
 $ composer require yish/laravel-facebook-php-ads-sdk
