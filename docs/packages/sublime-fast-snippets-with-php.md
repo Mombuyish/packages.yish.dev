@@ -11,6 +11,9 @@ d="M12 20.916h9.523c.598 0 1.094-.339 1.094-.75v-1.921c-.25.251-.646.408-1.094.4
 
 Sublime snippets is powerful functions, customize some snippets to create PHP useful method and class.
 
+## Package Control
+You can install via `Package Control` now, installed package control in sublime and search `PHP Snippets`! 😍
+
 ## Installation
 
 Changing directory to your sublime configure local:
