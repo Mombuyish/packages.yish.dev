@@ -28,7 +28,7 @@ module.exports = {
       ],
 
     themeConfig: {
-        logo: "/img/logo.svg",
+        logo: "/img/logo.png",
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Packages', link: '/packages/' },

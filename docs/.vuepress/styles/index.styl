@@ -1,0 +1,56 @@
+$bgColor = #3B4252;
+$darkBgColor = #2E3440;
+
+html, body {
+    background-color: $bgColor  
+}
+
+.navbar {
+    background-color: $bgColor
+}
+
+.navbar .links {
+    background-color: $bgColor !important
+}
+
+.sidebar {
+    background-color: $bgColor    
+}
+
+.search-box input {
+    background-color: $darkBgColor !important    
+}
+
+th, td
+  border 1px solid #434C5E
+  background-color: $darkBgColor
+
+.custom-block
+  .custom-block-title
+    font-weight 600
+    margin-bottom -0.4rem
+  &.tip, &.warning, &.danger
+    padding .1rem 1.5rem
+    border-left-width .5rem
+    border-left-style solid
+    margin 1rem 0
+  &.tip
+    background-color $darkBgColor
+    border-color #A3BE8C
+  &.warning
+    background-color rgba(255,229,100,.3)
+    border-color darken(#ffe564, 35%)
+    color darken(#ffe564, 70%)
+    .custom-block-title
+      color darken(#ffe564, 50%)
+    a
+      color $textColor
+  &.danger
+    background-color #ffe6e6
+    border-color darken(red, 20%)
+    color darken(red, 70%)
+    .custom-block-title
+      color darken(red, 40%)
+    a
+      color $textColor
+
