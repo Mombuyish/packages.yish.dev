@@ -1,6 +1,3 @@
-$bgColor = #3B4252;
-$darkBgColor = #2E3440;
-
 html, body {
     background-color: $bgColor  
 }
@@ -28,26 +25,34 @@ th, td
 .custom-block
   &.tip
     background-color $darkBgColor
-    border-color #A3BE8C
+    border-color $tipColor
     color $textColor
     a
-      color #A3BE8C
+      color $tipColor
     .custom-block-title
-      color darken(#A3BE8C, 25%)
+      color darken($tipColor, 25%)
   &.warning
     background-color $darkBgColor
-    border-color #EBCB8B
+    border-color $warningColor
     color $textColor
     a
-      color #EBCB8B
+      color $warningColor
     .custom-block-title
-      color darken(#EBCB8B, 25%)
+      color darken($warningColor, 25%)
   &.danger
     background-color $darkBgColor
-    border-color #BF616A
+    border-color $dangerColor
     color $textColor
     a
-      color #BF616A
+      color $dangerColor
     .custom-block-title
-      color darken(#BF616A, 25%)
+      color darken($dangerColor, 25%)
 
+blockquote {
+  color $textColor
+  border-color $accentColor
+}
+
+kbd {
+  background-color: transparent
+}
