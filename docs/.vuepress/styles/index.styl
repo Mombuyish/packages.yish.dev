@@ -26,31 +26,28 @@ th, td
   background-color: $darkBgColor
 
 .custom-block
-  .custom-block-title
-    font-weight 600
-    margin-bottom -0.4rem
-  &.tip, &.warning, &.danger
-    padding .1rem 1.5rem
-    border-left-width .5rem
-    border-left-style solid
-    margin 1rem 0
   &.tip
     background-color $darkBgColor
     border-color #A3BE8C
+    color $textColor
+    a
+      color #A3BE8C
+    .custom-block-title
+      color darken(#A3BE8C, 25%)
   &.warning
-    background-color rgba(255,229,100,.3)
-    border-color darken(#ffe564, 35%)
-    color darken(#ffe564, 70%)
-    .custom-block-title
-      color darken(#ffe564, 50%)
+    background-color $darkBgColor
+    border-color #EBCB8B
+    color $textColor
     a
-      color $textColor
+      color #EBCB8B
+    .custom-block-title
+      color darken(#EBCB8B, 25%)
   &.danger
-    background-color #ffe6e6
-    border-color darken(red, 20%)
-    color darken(red, 70%)
-    .custom-block-title
-      color darken(red, 40%)
+    background-color $darkBgColor
+    border-color #BF616A
+    color $textColor
     a
-      color $textColor
+      color #BF616A
+    .custom-block-title
+      color darken(#BF616A, 25%)
 
