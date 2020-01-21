@@ -30,6 +30,7 @@ module.exports = {
     themeConfig: {
         logo: "/img/logo.png",
         nav: [
+            { text: 'Blog', link: 'https://yish.dev' },
             { text: 'Home', link: '/' },
             { text: 'Packages', link: '/packages/' },
         ],
