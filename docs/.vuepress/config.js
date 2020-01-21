@@ -1,6 +1,6 @@
 module.exports = {
     title: 'Yish\'s Packages',
-    description: 'Yish develop and contribute packages and open source.',
+    description: 'Making better in the world.',
 
     serviceWorker: true,
 
