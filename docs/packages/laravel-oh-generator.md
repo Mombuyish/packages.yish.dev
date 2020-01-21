@@ -280,7 +280,7 @@ class Success extends Formatter implements FormatContract
 }
 ```
 
-If you need to customize what you need, check out `Yish\Generators\Foundation\Format\Statusable` get more detail.
+If you need to customize what you need, check out `Statusable` get more detail.
 
 #### Helper / formatter()
 

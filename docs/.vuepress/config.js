@@ -5,8 +5,12 @@ module.exports = {
     serviceWorker: true,
 
     plugins: [
-      '@vuepress/pwa',
-      require('./plugins/metaVersion.js')
+      '@vuepress/pwa', {
+        serviceWorker: true,
+        updatePopup: true
+      },
+      require('./plugins/metaVersion.js'),
+      '@vuepress/last-updated'
     ],
 
     head: [
