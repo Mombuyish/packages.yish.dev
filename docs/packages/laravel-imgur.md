@@ -1,7 +1,5 @@
 # Laravel Imgur
 
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path fill="#f4645f" d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
-
 <p>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <a class="github-button" href="https://github.com/Mombuyish/Laravel-Imgur" data-show-count="true" aria-label="Star Mombuyish/Laravel-Imgur on GitHub">Star</a>
@@ -11,61 +9,77 @@
 <a href="https://packagist.org/packages/yish/imgur"><img src="https://poser.pugx.org/yish/imgur/v/unstable.svg" alt="License"></a>
 </p>
 
-Laravel-Imgur is super easy upload image to imgur package.
+## Introduction
+
+Laravel Imgur is super easy upload image to imgur package.
 
 ## Requirement
-#### laravel `5.*`, `6.*`
+
+| Version | branch |
+| ------- | ------ |
+| 5.x     | 1.0.x  |
+| 6.x     | 1.0.x  |
 
 ## Installation
 
-Install via composer
 ``` bash
 $ composer require yish/imgur
 ```
 
-If you use 5.5 or later, you don’t need to add provider into app.php, just use discovery autoloading.
+### Registering Service Provider
+
+If you are using laravel 5.5 or later, you can use auto discover, you don't need put in service provider to `app.php`.
+
 ``` php
-Yish\Imgur\UploadServiceProvider::class,
+<?php
+//app.php
+'providers' => [
+    \Yish\Imgur\UploadServiceProvider::class,
+],
 ```
 
 ### Facade binding
-app.php
-``` php
+
+```php
 'Imgur' => Yish\Imgur\Facades\Upload::class,
 ```
 
 ### Publish config
-``` bash
+
+```bash
 $ php artisan vendor:publish
 ```
 
-## Usage
-``` php
+### Usage
+
+```php
 Imgur::upload($args);
 ```
 
 Arguments can be a image link or file, for example, you can pass a https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1200px-Apple_logo_black.svg.png or use file upload *MUST* instance of `Illuminate\Http\UploadedFile` .
 
 ### Customize
+
 If you want to customize your headers or form params, you can do belong:
 
-``` php
+```php
 Imgur::setHeaders([
-            'headers' => [
-                'authorization' => 'Client-ID ' . env('IMGUR_CLIENT_ID'),
-                'content-type' => 'application/x-www-form-urlencoded',
-            ]
-        ])->setFormParams([
-            'form_params' => [
-                'image' => $image,
-            ]
-        ])->upload($image);
+    'headers' => [
+        'authorization' => 'Client-ID ' . env('IMGUR_CLIENT_ID'),
+        'content-type' => 'application/x-www-form-urlencoded',
+    ]
+])->setFormParams([
+    'form_params' => [
+        'image' => $image,
+    ]
+])->upload($image);
 ```
 
-## Quick Starter
+### Quick Starter
+
 You can use methods to get what you want informations.
 
-``` php
+```php
 $image = Imgur::upload($file);
 
 // Get imgur image link.
@@ -96,8 +110,8 @@ $image->usual();
 ```
 
 Sometimes, you need get more image size, you can call `size` to get more thumbnails.
-``` php
 
+```php
 $image = Imgur::upload($file);
 
 // Support: https://api.imgur.com/models/image
