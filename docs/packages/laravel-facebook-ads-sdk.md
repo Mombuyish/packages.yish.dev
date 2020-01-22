@@ -1,5 +1,7 @@
 # LaravelFacebookAdsSdk
-This project is developing now.
+::: warning
+This package was not maintenance.
+:::
 
 **update! facebook ads api 3.1 !**
 

@@ -1,8 +1,5 @@
 # Laravel Google SpreadSheet
 
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24">
-<path d="M6 2c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.5L18.5 9H13z" fill="#f4645f"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-
 <p>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <a class="github-button" href="https://github.com/Mombuyish/Laravel-GoogleSpreadSheet" data-show-count="true" aria-label="Star Mombuyish/Laravel-GoogleSpreadSheet on GitHub">Star</a>
@@ -11,14 +8,21 @@
 <a href="https://packagist.org/packages/yish/laravel-googlespreadsheet"><img src="https://img.shields.io/packagist/v/yish/laravel-googlespreadsheet.svg?style=flat-square" alt="Latest Stable Version"></a>
 </p>
 
+## Introduction
+
 Google spreadsheet transforms to json and storing to file with laravel.
+
+## Requirement
+
+| Version | branch |
+| ------- | ------ |
+| 5.8     | 1.0.x  |
+| 6.x     | 1.0.x  |
 
 ## Installation
 
-You can install the package via composer:
-
-```bash
-composer require yish/laravel-googlespreadsheet
+``` bash
+$ composer require yish/laravel-googlespreadsheet
 ```
 
 If you need to set access type, you can publish config.
@@ -38,10 +42,6 @@ You need to check your service account and configs are all done.
 3. download credential.json
 4. enabled sheet api
 5. paste service account to sheet account permission
-
-## Requirement
-
-Laravel `5.8` or `6.*`
 
 ## Usage
 

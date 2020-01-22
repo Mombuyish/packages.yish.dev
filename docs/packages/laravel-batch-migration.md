@@ -1,7 +1,7 @@
 # Laravel Batch Migration
-
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path fill="#f4645f" d="M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z"/></svg>
-
+::: warning
+This package was not maintenance.
+:::
 <p>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <a class="github-button" href="https://github.com/Mombuyish/BatchMigration" data-show-count="true" aria-label="Star Mombuyish/Laravel-BatchMigration on GitHub">Star</a>

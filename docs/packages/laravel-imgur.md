@@ -75,7 +75,7 @@ Imgur::setHeaders([
 ])->upload($image);
 ```
 
-### Quick Starter
+### Quick Started
 
 You can use methods to get what you want informations.
 

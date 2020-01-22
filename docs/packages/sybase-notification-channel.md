@@ -1,8 +1,5 @@
 # Laravel Sybase Notification Channel
 
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24">
-<path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z" fill="#f4645f"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-
 <p>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <a class="github-button" href="https://github.com/Mombuyish/sybase-notification-channel" data-show-count="true" aria-label="Star Laravel Sybase Notification Channel on GitHub">Star</a>
@@ -11,19 +8,22 @@
 <a href="https://packagist.org/packages/yish/sybase-notification-channel"><img src="https://img.shields.io/packagist/v/yish/sybase-notification-channel.svg?style=flat-square" alt="Latest Stable Version"></a>
 </p>
 
+## Introduction
+
 Sybase 365 notification channel with Laravel.
-
-## Installation
-
-You can install the package via composer:
-
-```bash
-composer require yish/sybase-notification-channel
-```
 
 ## Requirement
 
-Laravel `5.8` or `6.*`
+| Version | branch |
+| ------- | ------ |
+| 5.8     | 1.0.x  |
+| 6.x     | 1.0.x  |
+
+## Installation
+
+``` bash
+$ composer require yish/sybase-notification-channel
+```
 
 ## Usage
 ### Creating notification:

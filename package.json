@@ -6,5 +6,11 @@
   "dependencies": {
     "@vuepress/plugin-pwa": "^1.2.0",
     "vuepress": "^1.2.0"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.2.0",
+    "@vuepress/plugin-google-analytics": "^1.2.0",
+    "@vuepress/plugin-medium-zoom": "^1.2.0",
+    "vuepress-plugin-smooth-scroll": "^0.0.9"
   }
 }

@@ -5,12 +5,20 @@ module.exports = {
     serviceWorker: true,
 
     plugins: [
-      '@vuepress/pwa', {
+      ['vuepress-plugin-smooth-scroll'],
+      ['@vuepress/back-to-top', true],
+      ['@vuepress/pwa', {
         serviceWorker: true,
         updatePopup: true
-      },
+      }],
       require('./plugins/metaVersion.js'),
-      '@vuepress/last-updated'
+      ['@vuepress/last-updated'],
+      ['@vuepress/medium-zoom'],
+      [
+        '@vuepress/google-analytics', {
+          'ga': 'UA-39896448-9'
+        }
+      ]
     ],
 
     head: [

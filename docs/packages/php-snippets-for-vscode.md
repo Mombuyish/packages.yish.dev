@@ -1,7 +1,5 @@
 # PHP snippets for vscode
 
-<img style="height: 120px;width: 120px" src="https://yish.gallerycdn.vsassets.io/extensions/yish/php-snippets-for-vscode/1.1.1/1537616906328/Microsoft.VisualStudio.Services.Icons.Default" />
-
 <p>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <a class="github-button" href="https://github.com/Mombuyish/php-snippets-for-vscode" data-show-count="true" aria-label="Star Mombuyish/php-snippets-for-vscode on GitHub">Star</a>
