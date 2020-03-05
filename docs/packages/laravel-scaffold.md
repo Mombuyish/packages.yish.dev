@@ -13,8 +13,7 @@ Super fast build CRUD resource for Laravel.
 
 | Version | branch |
 | ------- | ------ |
-| 5.5     | 1.0.x  |
-| 6.x     | 1.0.x  |
+| 5.5 ~ 7.x     | 1.x  |
 
 ## Installation
 

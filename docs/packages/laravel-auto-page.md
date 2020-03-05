@@ -13,8 +13,8 @@ This package will help you super faster to create page without set route and aut
 
 | Version | branch |
 | ------- | ------ |
-| 5.8     | 1.0.x  |
-| 6.x     | 1.0.x  |
+| 5.8 ~ 7.x    | 1.0.x  |
+
 
 ## Installation
 

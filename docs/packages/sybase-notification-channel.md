@@ -16,8 +16,7 @@ Sybase 365 notification channel with Laravel.
 
 | Version | branch |
 | ------- | ------ |
-| 5.8     | 1.0.x  |
-| 6.x     | 1.0.x  |
+| 5.8 ~ 7.x    | 1.x  |
 
 ## Installation
 

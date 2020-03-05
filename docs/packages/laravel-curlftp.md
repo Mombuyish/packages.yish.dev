@@ -16,8 +16,7 @@ This package is simple to provide `vladimir-yuldashev/flysystem-curlftp` facade(
 
 | Version | branch |
 | ------- | ------ |
-| 5.8     | 1.0.x  |
-| 6.x     | 1.0.x  |
+| 5.8 ~ 7.x     | 1.0.x  |
 
 ## Installation
 

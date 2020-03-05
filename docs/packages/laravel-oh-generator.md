@@ -20,7 +20,7 @@ This package extends the core file generators that are included with Laravel 5 /
 | --------- | ------ |
 | 5.4       | 1.1.x  |
 | 5.5 ~ 5.7 | 2.0.x  |
-| 5.8 ~ 6.x | 3.x.x  |
+| 5.8 ~ 7.x | 3.x.x  |
 
 ## Installation
 
