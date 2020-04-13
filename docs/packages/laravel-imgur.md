@@ -19,6 +19,7 @@ Laravel Imgur is super easy upload image to imgur package.
 | ------- | ------ |
 | 5.x     | 1.0.x  |
 | 6.x     | 1.0.x  |
+| 7.x     | 1.1.x  |
 
 ## Installation
 
