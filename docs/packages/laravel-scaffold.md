@@ -1,5 +1,7 @@
 # Laravel Scaffold
-
+::: warning
+This package was not maintenance.
+:::
 <p>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <a class="github-button" href="https://github.com/Mombuyish/Scaffold" data-show-count="true" aria-label="Star Mombuyish/Scaffold on GitHub">Star</a>
