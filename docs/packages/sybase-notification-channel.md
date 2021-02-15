@@ -1,5 +1,7 @@
 # Laravel Sybase Notification Channel
-
+::: warning
+This package was not maintenance.
+:::
 <p>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <a class="github-button" href="https://github.com/Mombuyish/sybase-notification-channel" data-show-count="true" aria-label="Star Laravel Sybase Notification Channel on GitHub">Star</a>
