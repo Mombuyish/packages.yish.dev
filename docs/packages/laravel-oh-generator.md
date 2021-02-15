@@ -1,5 +1,7 @@
 # Laravel Oh Generators
-
+::: warning
+This package was not maintenance.
+:::
 <p>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <a class="github-button" href="https://github.com/Mombuyish/Laravel-Oh-Generators" data-show-count="true" aria-label="Star Mombuyish/Laravel-Oh-Generators on GitHub">Star</a>
