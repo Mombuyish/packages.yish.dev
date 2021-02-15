@@ -1,5 +1,7 @@
 # Laravel Auto Page
-
+::: warning
+This package was not maintenance.
+:::
 <p>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <a class="github-button" href="https://github.com/Mombuyish/Laravel-Auto-Page" data-show-count="true" aria-label="Star Mombuyish/Laravel-Auto-Page on GitHub">Star</a>
