@@ -1,5 +1,7 @@
 # Laravel curlftp
-
+::: warning
+This package was not maintenance.
+:::
 <p>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <a class="github-button" href="https://github.com/Mombuyish/laravel-curlftp" data-show-count="true" aria-label="Star Mombuyish/laravel-curlftp on GitHub">Star</a>
